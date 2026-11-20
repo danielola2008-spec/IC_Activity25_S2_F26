@@ -26,9 +26,9 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "A"
-  uo[1]: "B"
-  uo[2]: "Cin"
+  uo[0]: "A and B"
+  uo[1]: "Cout"
+  uo[2]: ""
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
