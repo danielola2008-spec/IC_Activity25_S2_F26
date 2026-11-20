@@ -9,12 +9,18 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+It takes two input bits (A and B) plus a carry-in (Cin) and outputs their sum: S = A ⊕ B ⊕ Cin, which is 1 when an odd number of the inputs are 1, and Cout = AB + Cin(A ⊕ B), which is 1 when at least two of the inputs are 1
 
 ## How to test
 
-Explain how to use your project
+You test a full adder by going through all 8 combinations of A, B and Cin and checking both outputs against the truth table.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+3 slide switches (inputs A, B, Cin)
+2 LEDs (outputs S, Cout)
+2 resistors, 220 Ω (current limiting for the LEDs)
+2 XOR gates
+2 AND gates
+1 OR gate
+Breadboard, 5 V power, GND, jumper wires
